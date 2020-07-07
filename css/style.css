@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+  font-size: 62, 5;
+}
+.todo_wrapper {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 40px;
+  color: #089696;
+}
+#input_add {
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+#send_btn {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  color: #089696;
+}
+ol {
+  margin: 10px 30px;
+}
+
+ol li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 20px;
+  border: 2px solid rgb(0, 159, 255);
+  background-color: rgb(46, 115, 93);
+}
+span.delete_btn {
+  cursor: pointer;
+}
