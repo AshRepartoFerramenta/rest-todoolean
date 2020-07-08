@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Lobster", cursive;
-  font-size: 62, 5;
+  font-size: 62, 5%;
 }
 .todo_wrapper {
   width: 85%;
@@ -26,7 +26,7 @@ h1 {
   padding: 5px;
   margin-left: 5px;
   border-radius: 10px;
-  color: #089696;
+  color: #046e6e;
 }
 ol {
   margin: 10px 30px;
@@ -36,9 +36,12 @@ ol li {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  padding: 20px;
+  padding: 40px;
   border: 2px solid rgb(0, 159, 255);
-  background-color: rgb(46, 115, 93);
+  background-color: rgb(6, 241, 167);
+}
+#open {
+  color: rgb(9, 97, 173);
 }
 span.delete_btn {
   cursor: pointer;
